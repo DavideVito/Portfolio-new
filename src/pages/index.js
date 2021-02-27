@@ -129,6 +129,7 @@ const Product = (competenza) => {
 
       </h3>
       <h2 className="text-lg font-medium text-gray-900 title-font">{competenza.titolo} </h2>
+      <h2 className="text-lg font-medium text-gray-900 title-font">{competenza[lingua].sottotilo} </h2>
       <p className="mt-1 italic">{testo}</p>
     </div>
   </div>)

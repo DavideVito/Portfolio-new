@@ -24,7 +24,7 @@ export default function Card() {
 
 
 
-
+    console.log(competenza)
 
 
     return <Layout><div className="container px-5 pt-12 mx-auto">
@@ -35,7 +35,9 @@ export default function Card() {
                 className="block object-cover object-center w-full h-full full-image"
                 storagePath={imgRef ?? ""}
             />}
-            {competenza[lingua].sottotilo}
+
+            {competenza[lingua].contenuti}
+
 
         </div>
     </div></Layout>
